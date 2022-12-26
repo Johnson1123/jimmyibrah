@@ -1,0 +1,55 @@
+@import '../../style/Variable.scss';
+.Fea__con{
+    justify-content: flex-start; 
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    .Fea__product-con{
+        flex: 1;
+        justify-content: space-between;
+        height: auto;
+        .Fea__product{
+            position: relative;
+            width: 47%;
+            height: 200px;
+            min-height: 200px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .Fea__desc{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding: 2rem 1rem;
+                background-color: rgba(0, 0, 0, 0.295);
+                justify-content: flex-end;
+                align-items: flex-start;
+                .p__text{
+                    color: $secondColor;
+                    font-weight: 600;
+                }
+                .cat__text{
+                    color: $secondColor;
+                    line-height: 1.3;
+                }
+                .price__tag{
+                    display: none;
+                }
+            }
+            &:hover{
+                img{
+                    transform: scale(1.2);
+                }
+                .Fea__desc .price__tag{
+                    color: $secondColor;
+                    padding-top: 5px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

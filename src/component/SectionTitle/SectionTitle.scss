@@ -1,0 +1,15 @@
+@import '../../style/Variable.scss';
+.sub__text-con{
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+    p{
+        flex: 2;
+        text-align: center;
+    }
+    .line{
+        height: 4px;
+        flex: .6;
+        background-color: $primaryColor;
+    }
+}

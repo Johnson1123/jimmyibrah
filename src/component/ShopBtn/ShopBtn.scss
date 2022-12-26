@@ -1,0 +1,13 @@
+@import '../../style/Variable.scss';
+
+.shop__btn{
+    margin-top: 5px;
+    padding: 7px 10px;
+    border: 1px groove $blackColor;
+    border-radius: 20px;
+    color: $primaryColor;
+    &:hover{
+        background-color: $primaryColor;
+        color: $secondColor;
+    }
+}

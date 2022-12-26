@@ -1,0 +1,33 @@
+@import '../../style//Variable.scss';
+.Home__contact-con{
+    width: 100%;
+    padding: 1rem;
+    .Home__contact{
+        .Home__contact-img-con{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        width: 100%;
+        align-items: flex-start;
+        .Home__contact-desc{
+            margin-top: 20px;
+            width: 100%;
+            align-items: flex-start;
+            div{
+                margin-top: 7px;
+                display: flex;
+                align-items: center;
+                span svg{
+                    margin-right: 10px;
+                    font-size: 20px;
+                    color: $primaryColor;
+                }
+                a, p{
+                    color: $primaryColor;
+                }
+            }
+        }
+    }   
+}

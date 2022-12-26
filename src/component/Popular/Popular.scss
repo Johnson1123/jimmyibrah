@@ -1,0 +1,30 @@
+.Pop__con{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    .Pop__product-con{
+        width: 100%;
+        justify-content: space-between;
+        .Pop__product{
+            width: 47%;
+            align-items: flex-start;
+            img{
+                width: 100%;
+            }
+            .Pop__desc{
+                width: 100%;
+                padding: 0 2px;
+                .Pop__text{
+                    line-height: 1.5;
+                    font-weight: 500;
+                }
+                .price__tag{
+                    line-height: 1.3;
+                }
+                .app__btn{
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

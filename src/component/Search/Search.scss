@@ -1,0 +1,35 @@
+@import '../../style/Variable.scss';
+.search__con{
+    max-height: 3;
+    height: 30px;
+    min-width: 50%;
+    width: 60%;
+    border: 1px solid $primaryColor;
+    border-radius: 2px;
+    justify-content: center;
+    background-color: $whiteColor;
+    form{
+        padding: 2px;
+        height: 100%;
+        width: 100%;
+        input{
+            height: 100%;
+            width: 100%;
+            border: none;
+            padding-left: 5px;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .btn__search{
+        background-color: $primaryColor;
+        height: 100%;
+        width: 50px;
+        svg{
+            color: $secondColor;
+            font-weight: 900;
+            font-size: 16px;
+        }
+    }
+}

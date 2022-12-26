@@ -1,0 +1,13 @@
+@import '../../style/Variable.scss';
+.app__btn{
+    border: 1px groove $primaryColor;
+    background-color: $secondColor;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 2px;
+    &:hover{
+        background-color: $primaryColor;
+        color: $secondColor;
+    }
+}

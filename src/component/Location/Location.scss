@@ -1,0 +1,32 @@
+@import '../../style/Variable.scss';
+.Loc__con{
+     padding: 1rem;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 100%;
+     .cat__text{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 1rem 0;
+        width: 80%;
+        text-align: center;
+     }
+     .p__text{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.8;
+        font-family: $textFont;
+        text-align: justify;
+     }
+     .Loc__location{
+        margin: 1rem 0;
+        align-self: flex-start;
+        width: 100%;
+        .visit__us{
+            font-weight: 700;
+            font-size: 2px;
+            text-align: left;
+        }
+     }
+}
