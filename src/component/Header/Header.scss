@@ -9,6 +9,14 @@
     z-index: 10;
     backdrop-filter: blur(4);
     background-color: #fff;
+    .Logo__con{
+        height: 25px;
+        width: 25px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
     .logo__text{
         font-size: 24px;
         a{
