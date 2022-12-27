@@ -12,6 +12,10 @@
         }
         width: 100%;
         align-items: flex-start;
+        .p__text{
+            font-size: .9rem;
+            line-height: 1.5;
+        }
         .Home__contact-desc{
             margin-top: 20px;
             width: 100%;
@@ -22,11 +26,12 @@
                 align-items: center;
                 span svg{
                     margin-right: 10px;
-                    font-size: 20px;
+                    font-size: 1rem;
                     color: $primaryColor;
                 }
                 a, p{
                     color: $primaryColor;
+                    font-size: 1rem;
                 }
             }
         }

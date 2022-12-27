@@ -1,5 +1,5 @@
 import React from 'react'
-import shoppingBag from '../../asset/images/shopping__bag.jpg'
+import shoppingBag from '../../asset/images/Jimmy5.jpg'
 import ShopBtn from '../ShopBtn/ShopBtn'
 import './Slide.scss'
 
