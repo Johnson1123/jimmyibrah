@@ -12,7 +12,7 @@ export default function Features() {
                 <img src={Special} alt='' />
                 <div className="Fea__desc app__columns">
                     <p className='p__text'>Browse</p>
-                    <h3 className='cat__text'>Itallian Chinos</h3>
+                    <h3 className='Fea__text'>Itallian Chinos</h3>
                     <p className='price__tag'><span>#34,000</span> - <span>#36,000</span></p>
                 </div>
             </div>

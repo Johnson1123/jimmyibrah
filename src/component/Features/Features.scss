@@ -33,9 +33,11 @@
                     color: $secondColor;
                     font-weight: 600;
                 }
-                .cat__text{
-                    color: $secondColor;
-                    line-height: 1.3;
+                .Fea__text{
+                    font-size: .8rem;
+                    font-family: $textFont;
+                    font-weight: 300;
+                    color: $blackColor;
                 }
                 .price__tag{
                     display: none;

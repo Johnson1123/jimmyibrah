@@ -9,5 +9,7 @@
     &:hover{
         background-color: $primaryColor;
         color: $secondColor;
+        border: none;
+        padding: 7px 11px;
     }
 }

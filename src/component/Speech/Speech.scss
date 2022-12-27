@@ -5,13 +5,13 @@
      align-items: flex-start;
      width: 100%;
      .ceo__image-con{
-      height: 300px;
-      width: 300px;
-      border-radius: 50%;
+      height: 220px;
+      width: 220px;
       img{
          width: 100%;
          height: 100%;
          object-fit: fill;
+         border-radius: 50%;
       }
      }
      .cat__text{

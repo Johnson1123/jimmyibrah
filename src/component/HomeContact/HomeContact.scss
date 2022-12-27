@@ -13,25 +13,27 @@
         width: 100%;
         align-items: flex-start;
         .p__text{
-            font-size: .9rem;
+            font-size: 1rem;
             line-height: 1.5;
+            text-align: justify;
+            padding-top: .5rem;
         }
         .Home__contact-desc{
             margin-top: 20px;
             width: 100%;
             align-items: flex-start;
             div{
-                margin-top: 7px;
+                margin-top: 10px 0;
                 display: flex;
                 align-items: center;
                 span svg{
                     margin-right: 10px;
-                    font-size: 1rem;
+                    font-size: .9rem;
                     color: $primaryColor;
                 }
                 a, p{
                     color: $primaryColor;
-                    font-size: 1rem;
+                    font-size: .9rem;
                 }
             }
         }
