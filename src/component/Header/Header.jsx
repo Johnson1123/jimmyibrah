@@ -2,6 +2,7 @@ import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { BsSearch } from 'react-icons/bs'
 import { MdClose } from 'react-icons/md'
+import Logo from '../../asset/images/favicon.png'
 import './Header.scss';
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
@@ -13,6 +14,12 @@ export default function Header() {
   const searchToggleHandler = () => setSearchToggle(false);
   return (
     <div className='header__container app__flex'>
+      <div className='Logo__box app__flex'>
+        <Link to='/'><Logo /></Link>
+      </div>
+      <div>
+        <h1 className='logo__text'><Link to='/'>Jimmy IBRAH</Link></h1>
+      </div>
       <div className='bars__menu-con bars__icons svg-icon'>
         <FaBars onClick={() => setToggle(true)}/>
         { toggle &&
@@ -32,17 +39,6 @@ export default function Header() {
           </div>
         }
       </div> 
-      <div>
-        <h1 className='logo__text'><Link to='/'>Jimmy IBRAH</Link></h1>
-      </div>
-      <div className={`svg-  search__icon ${searchToggle && 'D__none'}`}>
-        <BsSearch onClick={() => setSearchToggle(true)}/>
-      </div> 
-      { searchToggle &&
-        <div className='search__box app__flex'>
-          <Search handleSearch={searchToggleHandler}/>
-        </div>
-      }
     </div>
   )
 }
