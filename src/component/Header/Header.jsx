@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md'
-import Logo from '../../asset/images/Logo.png'
+// import Logo from '../../asset/images/Logo.png'
 import './Header.scss';
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div className='header__container app__flex'>
       <div className='Logo__box app__flex'>
-        <Link to='/'><Logo /></Link>
+        <span><Link to='/'><Logo /></Link></span>
       </div>
       <div>
         <h1 className='logo__text'><Link to='/'>Jimmy IBRAH</Link></h1>
