@@ -2,7 +2,7 @@ import React from 'react'
 import Features from '../../component/Features/Features'
 import Popular from '../../component/Popular/Popular'
 import Slide from '../../component/Slideshow/Slide'
-import Speech from '../../component/Location/Speech'
+import Speech from '../../component/Speech/Speech'
 import './Home.scss'
 import HomeContact from '../../component/HomeContact/HomeContact'
 
