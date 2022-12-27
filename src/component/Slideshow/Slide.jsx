@@ -9,7 +9,7 @@ export default function Slide() {
         <div className='slide'>
           <img src={shoppingBag} alt="shopping bag" />
             <div className='slide__desc app__columns'>
-                <h3 className='p__text'>New Materias</h3>
+                <h3 className='p__text'>New Fabrics</h3>
                 <h4 className='sub__text'>Best Quality</h4>
                 <ShopBtn values='SHOP NOW'/>
             </div>

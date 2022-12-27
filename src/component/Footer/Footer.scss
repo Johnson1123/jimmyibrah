@@ -2,14 +2,14 @@
 
 .footer__container{
     background-color: $blackColor;
-    padding: 1rem;
+    padding: .8rem;
     justify-content: center;
     .footer__text{
         color:  $whiteColor;
         text-align: center;
     }
     .footer-icons{
-        margin-top: 10px;
+        margin-top: 7px;
         a{
             margin: 0 7px;
             svg{

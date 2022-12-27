@@ -12,9 +12,9 @@ export default function Footer() {
         <span>&copy;</span> - <span>Jimmy Ibrah TiTex Fabrics Nig.Enterp.</span>
       </p>
       <div className="footer-icons app__flex">
-        <Link to='https://facbook.com'><AiFillFacebook /></Link>
-        <Link to='https://facbook.com'><AiFillInstagram /></Link>
-        <Link to='https://facbook.com'><AiFillTwitterSquare /></Link>
+        <Link to='https://facebook.com/'><AiFillFacebook /></Link>
+        <Link to='https://www.instagram.com/'><AiFillInstagram /></Link>
+        <Link to='https://twitter.com/'><AiFillTwitterSquare /></Link>
       </div>
     </div>
   )
