@@ -34,13 +34,15 @@
                     font-weight: 600;
                 }
                 .Fea__text{
-                    font-size: .8rem;
+                    font-size: 1rem;
                     font-family: $textFont;
                     font-weight: 300;
-                    color: $blackColor;
+                    color: $secondColor;
+                    text-shadow: 1px solid $primaryColor;
                 }
                 .price__tag{
                     display: none;
+                    text-shadow: 1px solid $primaryColor;
                 }
             }
             &:hover{
