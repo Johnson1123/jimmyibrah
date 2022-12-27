@@ -6,32 +6,32 @@
 .p__text{
     color: $blackColor;
     font-family: $textFont;
-    font-size: 16px;
+    font-size: .8rem;
     letter-spacing: .1px;
     text-decoration: none;
 }
 .sub__text{
-    font-size: 22px;
+    font-size: 1.5rem;
     color: $blackColor;
     font-family: $textFont;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.8;
 }
-.pop__text{
-    font-size: 15px;
-    color: $blackColor;
+.Pop__text{
+    font-size: 1rem;
+    color: $primaryColor;
     font-family: $textFont;
-    font-weight: 700;
-    line-height: 1.1;
+    font-weight: 600;
+    line-height: 1.4;
 }
 .price__tag{
     font-weight: 700;
-    font-size: 16px;
+    font-size: .8rem;
     color: $blackColor;
     font-family: $primaryFont;
 }
 .cag__text{
-    font-size: 18px;
+    font-size: .9rem;
     font-family: $textFont;
     font-weight: 300;
     color: $blackColor;
@@ -46,7 +46,4 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.svg-icon{
-
 }

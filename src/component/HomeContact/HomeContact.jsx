@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import './HomeContact.scss'
-import Shop from '../../asset/images/Jimmy2.jpg'
+import Shop from '../../asset/images/shop.jpg'
 import { MdLocationPin } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
 import { BsTelephoneFill } from 'react-icons/bs'
@@ -15,6 +15,10 @@ export default function HomeContact() {
             <div className="Home__contact-img-con">
                <img src={Shop} alt='shop'/>  
             </div>
+            <p className='p__text'>
+              We have two shop full of fabrics from Itianlia Chinos, Special, Spider shirt materia,
+              Special trouser, Uniform Shirt and much more
+            </p>
             <div className='app__columns  Home__contact-desc'>
                 <div><span><MdLocationPin /></span><p>No.3 sabo, lagos</p></div>
                 <div><span><BsTelephoneFill /></span><a href='tel:09076524078'> 09076524078</a></div>
