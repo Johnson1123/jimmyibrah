@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md'
-// import Logo from '../../asset/images/Logo.png'
+import Logo from '../../asset/images/Logo.png'
 import './Header.scss';
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
